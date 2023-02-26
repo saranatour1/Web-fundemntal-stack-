@@ -2,28 +2,30 @@ Hello , this is my logs
 
 ```
 commit (HEAD -> master, origin/master)
-Author: Sara 
+Author: Sara
 Date:   Sun Feb 26 12:17:35 2023 +0200
 
     update css
 
-commit 
-Author: Sara 
+commit
+Author: Sara
 Date:   Sun Feb 26 12:16:25 2023 +0200
 
     update html
 
-commit 
+commit
 Author: Sara
 Date:   Sun Feb 26 11:21:25 2023 +0200
 
     first file uppload
 
-commit 
-Author: Sara 
+commit
+Author: Sara
 :
 ```
-#revert the css to the previous version 
+
+#revert the css to the previous version
+
 ```
 This reverts commit 9e44
 
@@ -37,6 +39,7 @@ This reverts commit 9e44
 # Changes to be committed:
 #       deleted:    3-Github Section/Day 11/test/style.css
 ```
+
 <h5>Here are a list of the commands used </h5>
 <ul>
     <li>git init initialize the repository.</li>
@@ -47,8 +50,3 @@ This reverts commit 9e44
     <li>git log</li>
     <li>git revert -n 'my uniquie hash' </li>
 </ul>
-
-
-
-
-

@@ -10,8 +10,18 @@ Remote Repository assignment
 git add .
 ```
  </li>
-<li></li>
-<li></li>
+<li>then, I will commit these files to github by using the command: 
+```
+git commit -m " Commited staged files to githb "
+```
+
+</li>
+<li> and lastly , to push these files I used this command: 
+```
+git push 
+```
+
+</li>
 <li></li>
 <li></li>
 <li></li>
