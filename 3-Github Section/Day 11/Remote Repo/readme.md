@@ -1,29 +1,27 @@
-<h5>
-Remote Repository assignment 
-</h5>
-<p>in this assignment, I created some files, and sice I already have a repo for this Section I didn't Create a repo from scratch.</p>
-<h6>here are the steps I took: </h6>
-<ul>
-<li>First, I created a few files in this folder</li>
-<li>Next,In my terminal , I will add all the files by using this line command :
+## Remote Repository Assignment
+
+In this assignment, I created some files, and since I already have a repository for this section, I didn't create a new one from scratch. Here are the steps I took:
+
+### Steps
+
+1. I created a few files in this folder.
+2. Next, I added all the files using the following command in my terminal:
 ```
 git add .
 ```
- </li>
-<li>then, I will commit these files to github by using the command: 
+
+3. Then, I committed these files to GitHub using the command:
+
 ```
-git commit -m " Commited staged files to githb "
+git commit -m "Committed staged files to GitHub"
 ```
 
-</li>
-<li> and lastly , to push these files I used this command: 
-```
-git push 
-```
+4. Finally, I pushed these files using the command:
 
-</li>
-<li></li>
-<li></li>
-<li></li>
+```
+git push
+```
+5. And if you do that correctly You can see a picture of baby Yoda at the end ! 
 
-</ul>
+
+![image](https://user-images.githubusercontent.com/77834808/221408986-fe7698fc-cb49-40d1-a3c3-ffbfde8cb769.png)
