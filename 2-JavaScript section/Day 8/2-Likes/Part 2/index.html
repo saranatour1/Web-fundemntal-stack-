@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Part II : Liking Likes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="flex">
+      <!-- Likes box -->
+      <nav>Network</nav>
+      <h1>Your Feed</h1>
+
+      <div class="container">
+        <div class="user-card">
+          <img src="/user.png" alt="user avatar" />
+          <a href="#" class="blue-keyword"> add an avatar</a>
+          <h5>James Doe</h5>
+        </div>
+        <div class="col">
+          <div class="card-like">
+            <p class="top">
+              Neil M
+              <span class="numberoflikes one"> 0</span>
+              <button type="submit" class="likes-btn" id="btn1" onclick="increaseLikes(event)">
+                Like
+              </button>
+            </p>
+            <p>I just set up this new discord bot ,  
+              
+              let me know what you all think . <a href="#" class="blue-keyword">link</a></p>
+          </div>
+          <div class="card-like">
+            <p class="top">
+              Nichole K
+              <span class="numberoflikes two"> </span>
+              <button type="submit" id="btn2" class="likes-btn " onclick="increaseLikes(event)">
+                Like
+              </button>
+            </p>
+            <p>Just finished my <a href="#" class="blue-keyword"> next comic</a>, check it out.
+            </p>
+          </div>
+          <div class="card-like">
+            <p class="top">
+              Jim R
+              <span class="numberoflikes three"> </span>
+              <button type="submit" class="likes-btn " id="btn3" onclick="increaseLikes(event)">
+                Like
+              </button>
+            </p>
+            <p>I can't stop listening to the <a href="#" class="blue-keyword">new album</a>
+            Who else is liking it? 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+/* Search > btn */
+/* add-btn >add */
+/* create-account-btn > normal-btn  */
+
+* {
+  padding: 0;
+  margin: 15px 15px;
+}
+.search,
+.add-btn,
+.create-account-btn {
+  margin: 20px;
+}
+.btn {
+  display: inline-block;
+  height: 30px;
+  padding: 0 60px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: medium;
+  font-weight: 500;
+  color: rgb(4, 180, 180);
+  border: 2px solid rgb(4, 180, 180);
+  border-radius: 20px;
+  background-color: whitesmoke;
+}
+.btn:hover,
+.add:hover,
+.normal-btn:hover {
+  filter: brightness(110%);
+  transform: scale(99%);
+  cursor: pointer;
+}
+.btn:active,
+.add:active,
+.normal-btn:active {
+  transform: scale(97%);
+}
+button {
+  border-style: none;
+}
+.add {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  padding: 0px;
+  border-radius: 50px;
+  color: whitesmoke;
+  background-color: lightseagreen;
+  font-size: 22px;
+}
+.normal-btn {
+  display: inline-block;
+  text-transform: capitalize;
+  color: azure;
+  background-color: #1778f2;
+  padding: 20px 40px;
+  box-shadow: 5px 8px 8px 2px black;
+  font-size: 18px;
+  align-items: center;
+}

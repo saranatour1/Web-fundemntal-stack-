@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 950px;
+  background-color: silver;
+  margin: 0 auto;
+}
+
+.top-nav {
+  display: inline-flex;
+  margin: 5px;
+  height: 150px;
+  background-color: green;
+}
+.side-nav {
+  display: inline-flex;
+  justify-content: center;
+
+  height: 300px;
+  width: 200px;
+  background-color: blue;
+}
+.main {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 400px;
+  width: 700px;
+  background-color: red;
+  align-content: stretch;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  /* justify-content: flex-end;
+  align-items: flex-start; */
+}
+.sub-content {
+  display: inline-flex;
+  height: 200px;
+  width: 210px;
+  background-color: yellow;
+  margin: 8px;
+}
+#advertisement {
+  display: inline-flex;
+  margin-top: 5px;
+  margin-left: 14px;
+  height: 120px;
+  width: 660px;
+  background-color: purple;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  /* TODO - what should go here? */
+}

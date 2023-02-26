@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro:wght@300;400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Serif Pro", serif;
+}
+.body {
+  width: 900px;
+  margin: 1em auto;
+}
+.container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 50%;
+  margin: 10px auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 7px;
+}
+.top p{
+  text-align: center;
+}
+.numberoflikes {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.likes-btn {
+  background-color: #ffd966;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.likes-btn:hover {
+  filter: brightness(95%);
+}

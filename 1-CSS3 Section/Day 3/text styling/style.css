@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+h1,
+h3,
+span,
+div {
+  text-transform: capitalize;
+}
+.head,
+.anchor,
+.head3 {
+  margin: 15px;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  padding-left: 10px;
+  height: 50px;
+  padding-top: 8px;
+  font-weight: 600;
+  font-size: 32px;
+}
+.span {
+  color: aqua;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.head3 {
+  text-align: center;
+  align-items: center;
+  font-style: italic;
+  background-color: blueviolet;
+  color: white;
+  height: 45px;
+  padding-top: 17px;
+}
+.anchor {
+  background-color: lightblue;
+  height: 35px;
+  font-size: 20px;
+  text-align: right;
+  padding-top: 12px;
+}
+
+.span2 {
+  font-weight: 600;
+  padding-right: 10px;
+  text-decoration: underline;
+  color: rgb(28, 24, 24);
+}

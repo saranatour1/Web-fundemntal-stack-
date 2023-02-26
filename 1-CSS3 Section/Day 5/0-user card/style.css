@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro&display=swap");
+/* #17a2b8 */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Serif Pro", serif;
+}
+.user-card {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+
+  border: 2px solid #cccccc;
+  box-shadow: 2px 2px 4px #cccccc;
+  margin: 1em auto;
+}
+.upper-container {
+  display: inline-flex;
+  background-color: #17a2b8;
+  width: 100%;
+  height: 4.25em;
+}
+
+.information {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.user-pic {
+  position: relative;
+  bottom: 37px;
+  left: -2px;
+  width: fit-content;
+  background: #ffffff;
+  border-radius: 100%;
+  margin-bottom: -25px;
+}
+
+.location,
+h3,
+p,
+a {
+  margin-bottom: 3px;
+}
+a {
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Serif Pro", serif;
+  color: #17a2b8;
+}
+.settings {
+  margin-bottom: -5px;
+}

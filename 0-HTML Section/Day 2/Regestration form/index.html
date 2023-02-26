@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regestration Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>Registration Form</h1>
+    </header>
+    <main>
+      <form action="" method="post">
+        <div class="peoples details">
+          <p>First name: * <input type="text" required /></p>
+          <p>Last name: * <input type="text" required /></p>
+          <p>Email Adress: * <input type="email" required /></p>
+          <p>Password:* <input type="password" name="password" required /></p>
+          <p>Confirm Password:* <input type="password" name="password" /></p>
+          <p>Birthday: <input type="date" name="birthdate" /></p>
+          <p>
+            <span>Gender Identity:</span>
+            <br />
+            <label for="Male">
+              <input type="radio" name="Male" id="Male" /> Male
+            </label>
+            <label for="Female">
+              <input type="radio" name="Female" id="Female" />Female
+            </label>
+            <label for="Non-binary">
+              <input type="radio" name="non-binary" id="Non-binary" />Non-binary
+            </label>
+            <label for="No-selection">
+              <input type="radio" name=" No-selection" id="No-selection" />
+              I prefer not to say
+            </label>
+          </p>
+        </div>
+        <div>
+          <label>a short descreption about yourself <br /></label>
+          <textarea rows="4" cols="50"> </textarea>
+        </div>
+        <div class="Language selection">
+          <p>
+            Favorite Language:
+            <select name="Programming Languages">
+              <option value="Javascript">Java script</option>
+              <option value="C++">C++</option>
+              <option value="C">C</option>
+              <option value="python">python</option>
+              <option value="HTML">HTML</option>
+              <option value="Css">Css</option>
+            </select>
+          </p>
+        </div>
+        <div id="checkbox">
+          <p>
+            <input type="checkbox" name="checkBox" />
+            Yes, I would like to recieve periodic email updates
+          </p>
+        </div>
+        <input type="submit" value="Create Acount" />
+        <br />
+        <p>* indicates a required field</p>
+      </form>
+    </main>
+  </body>
+</html>

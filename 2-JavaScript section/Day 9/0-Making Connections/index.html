@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>user profile</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="nav-bar">
+      <div class="nav-bar wrapper">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#" class="active">My Profile</a></li>
+          <li><a href="#">Find Connections</a></li>
+          <li><button class="btn">Sign Out</button></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="main-elemnts">
+      <div class="col">
+        <div class="user-card">
+          <div class="upper-container"></div>
+          <div class="information">
+            <img
+              src="/img/account.png"
+              alt="user account pic"
+              class="user-pic"
+            />
+
+            <h3>Jane Doe</h3>
+            <p class="location">
+              <img src="/img/map.png" alt="map" />
+              <span>Seattle</span>
+            </p>
+            <p>
+              Developer | Engineer | Problem Solver <br />Master of shadows and
+              the Internet!
+            </p>
+
+            <p class="settings">
+              <img src="/img/settings.png" alt="settings" />
+              <a href="#" onclick="changeName()">Edit Profile</a>
+            </p>
+          </div>
+        </div>
+        <div class="Education-Section">
+          <h6 class="card-title">Education</h6>
+          <ul class="Education-information">
+            <li>
+              Coding dojo - Full Stack Boot Camp <br />
+              <span class="small-quotes"> Feb 2023 - Mar 2020</span>
+            </li>
+            <li>
+              Triple black belt in python ,MERN , and Java<br />
+              <span class="small-quotes"> Feb 2023 - Mar 2020</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="Connections-Requests">
+          <h6 class="card-title sm">
+            <span class="connections-number"> 2</span> Connections Request
+          </h6>
+          <ul class="users">
+            <li id="contact1">
+              <img src="/img/account.png" alt="user avatar" />
+              <span id="user-names1"> Todd E</span>
+              <div class="options">
+                <img
+                  src="/img/check.png"
+                  alt="Approve request"
+                  onclick="accept()"
+                />
+                <img src="/img/close.png" alt="deny" onclick="accept()" />
+              </div>
+            </li>
+            <li id="contact2">
+              <img src="/img/account.png" alt="user avatar" />
+              <span id="user-names2"> Phil K</span>
+              <div class="options">
+                <img
+                  src="/img/check.png"
+                  alt="Approve request"
+                  onclick="accept1()"
+                />
+                <img src="/img/close.png" alt="deny" onclick="accept1()" />
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div id="Connections-Requests">
+          <h6 class="card-title sm">
+            <span class="connections-number1"> </span>+ Your connections
+          </h6>
+          <ul class="users" id="users">
+            <li>
+              <img src="/img/account.png" alt="user avatar" />
+              <span class="user-names"> Adrian D</span>
+            </li>
+            <li>
+              <img width="30px" src="/img/account.png" alt="user avatar" />
+              <span class="user-names"> Anne J</span>
+            </li>
+            <li>
+              <img src="/img/account.png" alt="user avatar" />
+              <span class="user-names"> Alyane T</span>
+            </li>
+            <li>
+              <img src="/img/account.png" alt="user avatar" />
+              <span class="user-names"> Arry Y</span>
+            </li>
+            <li></li>
+          </ul>
+          <a class="view" href="#">View more</a>
+        </div>
+      </div>
+    </main>
+    <script src="/script.js"></script>
+  </body>
+</html>

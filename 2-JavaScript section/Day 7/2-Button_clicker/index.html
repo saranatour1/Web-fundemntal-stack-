@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Nav bar  -->
+    <nav class="main-nav container">
+      <h1 class="main-title">Dojonary</h1>
+      <input type="search" name="Search" placeholder="Search" id="search-bar" />
+      <button type="submit" class="blue-button" onclick="changeText(this)">
+        Login
+      </button>
+    </nav>
+    <div class="main container">
+      <div class="col">
+        <div class="definition">
+          <div class="left">
+            <h1 class="def-title">ninja</h1>
+            <small class="def-type">noun</small>
+            <small class="plural">Plural :ninjas</small>
+            <button type="submit" class="likes" onclick="countLikes(this)">
+              13 likes
+            </button>
+          </div>
+
+          <p class="def-info">
+            A practitioner skilled in the
+            <span class="blue-keyword"> japanese</span>
+            art of
+            <span class="blue-keyword"> ninjutsu</span>
+          </p>
+        </div>
+        <div class="definition">
+          <div class="left">
+            <h1 class="def-title">ninja</h1>
+            <small class="def-type">noun</small>
+            <small class="plural">Plural :ninjas</small>
+            <button type="submit" class="likes" onclick="countLikes(this)">
+              37 likes
+            </button>
+          </div>
+
+          <p class="def-info">
+            A
+            <span class="blue-keyword"> programmer</span>
+            who breaks down problems with
+            <span class="blue-keyword"> zen</span>-like focus
+          </p>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="right-elemnt">
+          <p class="side-text">Dojonary is defined by <strong>YOU</strong></p>
+          <button type="submit" class="green" onclick="removeButton(this)">
+            Add Definition
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

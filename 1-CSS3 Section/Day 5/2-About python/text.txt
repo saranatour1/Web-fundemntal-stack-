@@ -1,0 +1,120 @@
+}
+/* Blue section box */
+.container-blue {
+-
+  background-color: var(--blue);
++
+  /* background-color: var(--blue); */
+  margin: 0 auto;
+-
+  background-position: center;
++
+  /* background-position: center; */
++
+  background-image: linear-gradient( to bottom , #9ec2e1,#ffff);
+}
+/* Top Section, Set to flex , space between */
+( … Skipping 100 matching lines … )
+.main-text-area {
+  display: flex;
+  width: 90%;
+-
+  margin: 1px auto;
+-
+  height: 400px;
+-
+  line-height: 24px;
++
+  margin: 9px auto;
++
+  /* height: 400px; */
++
+  /* line-height: 24px; */
+  justify-content: space-around;
+-
+  flex-direction: row;
+-
+  align-items: center;
++
+  /* flex-direction: row; */
++
+  /* align-items: center; */
+}
+.zen {
+-
+  font-size: 20px;
++
+  font-size: 16px;
+  line-height: 30px;
+}
+.left-hand-side {
+-
+  display: flex;
+-
+  flex-direction: column;
++
+  /* display: flex; */
++
+  /* flex-direction: column; */
+  justify-content: center;
+-
+  align-items: center;
+-
+  width: 50%;
+-
+  margin: 0 20px;
++
+  /* align-items: center; */
++
+  /* width: 50%; */
++
+  /* margin-top: 10px; */
+}
+.wierd-text {
+( … Skipping 11 matching lines … )
+}
+.left-hand-side li {
+  /* font-size: 22px; */
+-
+  width: 80%;
++
+  /* width: 11%; */
+  padding: 0;
+-
+  margin-top: 10px;
++
+  /* margin-top: 19px; */
+  text-align: center;
+}
+( … Skipping 9 matching lines … )
+  font-size: 16px;
+}
+ul {
+-
+  list-style: none;
+-
+  line-height: 29px;
++
+  /* list-style: none; */
++
+  /* line-height: 29px; */
+}
+.right-hand-side {
+( … Skipping 45 matching lines … )
+  font-size: 20px;
+}
+.white-list li::before {
+-
+  content: "\25A0";
++
+  /* content: "\25A0"; */
+  margin-right: 30px;
++
+  list-style-type: square;
++
+}
++
++
+::before {
+}
+.white-list li a, .blue-text a {
