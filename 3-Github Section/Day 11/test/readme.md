@@ -37,4 +37,18 @@ This reverts commit 9e44
 # Changes to be committed:
 #       deleted:    3-Github Section/Day 11/test/style.css
 ```
+<h5>Here are a list of the commands used </h5>
+<ul>
+    <li>git init initialize the repository.</li>
+    <li>git remote add origin ____.</li>
+    <li>git push - </li>
+    <li>git status </li>
+    <li>git add .</li>
+    <li>git log</li>
+    <li>git revert -n 'my uniquie hash' </li>
+</ul>
+
+
+
+
 
