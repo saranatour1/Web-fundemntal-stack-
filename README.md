@@ -1,5 +1,2 @@
-# Web-fundemntal-stack-
-All The Web Fundamentals stack Submissions to date.<br>
-
-Helloo!,<br>
-this is the full web fundementals stack submissions in order. 
+# Web-fundemntal-stack
+This is the full submissions of the Web fundemntals stack , from 12/02/2023-2/3/2023. 
