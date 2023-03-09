@@ -1,1 +1,2 @@
 **Check out the info and guidiance on Github pages!**
+You can Find in the files uploaded alot of helpfull topics and Idea's, these were uploaded here for 'teaching purposes' and I hope Some how they might help someone someday -other than myself -.
